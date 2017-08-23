@@ -1,10 +1,10 @@
 import wave
-import math
 import pylab as pl
 import numpy as np
 import Volume as vp
 
-audio = '1.wav'
+# change the file name is needed
+audio = 'lib/1.wav'
 
 def main(wavName):
     fw = wave.open(wavName, 'r')
